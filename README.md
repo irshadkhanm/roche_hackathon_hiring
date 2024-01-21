@@ -53,9 +53,10 @@ True parameter enables debugging mode, providing detailed error messages and abi
 
 Use the App and its Flask:
 
-1. we need to ensure that Flask is installed
-2. Verify that your fizzapp module contains a Flask application named app
-3. we will use <waitress-serve --host=0.0.0.0 --port=8000 fizzapp:app> code to use the fizzapp using waitress server
-4. flask app can be accessed at http://localhost:8000/
-5. Once the server is running, you can interact with the FizzBuzz API by making requests to the /fizzbuzz endpoint. For example, you can open a new terminal or use a tool like curl or Postman to make a GET request
+1. we need to ensure that Flask waitress is installed
+2. use <pip install Flask waitress> for installation
+3. Verify that your fizzapp module contains a Flask application named app
+4. we will use <waitress-serve --host=0.0.0.0 --port=8000 fizzapp:app> code to use the fizzapp using waitress server
+5. flask app can be accessed at http://localhost:8000/
+6. Once the server is running, you can interact with the FizzBuzz API by making requests to the /fizzbuzz endpoint. For example, you can open a new terminal or use a tool like curl or Postman to make a GET request
    code < curl "http://localhost:8000/fizzbuzz?int1=3&int2=5&limit=15&str1=fizz&str2=buzz"> 

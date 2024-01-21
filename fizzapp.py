@@ -85,4 +85,4 @@ if __name__ == '__main__':
 # True parameter enables debugging mode, providing detailed error messages and ability to
 # auto-reload the server on code changes during development.
 
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
